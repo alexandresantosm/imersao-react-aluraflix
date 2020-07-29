@@ -28,7 +28,7 @@ const Button = styled.button`
     background: var(--color-primary);
     color: var(--color-white);
     border-radius: 0;
-    border: 0;
+    border: none;
     text-align: center;
   }
 `;

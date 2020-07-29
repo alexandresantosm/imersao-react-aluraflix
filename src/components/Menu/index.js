@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/logo-aluraflix.png';
 import { LogoImage, MenuWrapper} from './style';
-import Button from '../Button';
+import Button from '../Button/style';
 
 function Menu() {
   return (
