@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 import './styles/settings/colors.css';
 import './styles/reset.css';
 
-import App from './App';
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
