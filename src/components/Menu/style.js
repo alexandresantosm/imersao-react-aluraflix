@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MenuWrapper = styled.nav`
-  max-width: 100vw;
+  max-width: 100%;
   height: 94px;
   z-index: 1;
 

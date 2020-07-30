@@ -11,7 +11,7 @@ const FooterWrapper = styled.footer`
   color: var(--color-white);
   position: fixed;
   bottom: 0;
-  width:100vw;
+  width: 100%;
 
   a {
     cursor: pointer;
@@ -36,7 +36,13 @@ const FooterWrapper = styled.footer`
   }
 
   @media (max-width: 800px) {
+    font-size: 10px;
+    padding: 8px 16px;
     margin-bottom: 50px;
+
+    img {
+      height: 20px;
+    }
   }
 `;
 
