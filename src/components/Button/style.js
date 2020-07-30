@@ -15,6 +15,11 @@ const Button = styled.button`
   display: inline-block;
   transition: opacity .3s;
 
+  a {
+    height: 100%;
+    width: 100%;
+  }
+
   &:hover,
   &:focus {
     opacity: .5;
@@ -30,6 +35,7 @@ const Button = styled.button`
     border-radius: 0;
     border: none;
     text-align: center;
+    z-index: 1;
   }
 `;
 

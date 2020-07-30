@@ -9,8 +9,6 @@ const FooterWrapper = styled.footer`
   border-top: 2px solid var(--color-primary);
   padding: 16px 32px;
   color: var(--color-white);
-  position: fixed;
-  bottom: 0;
   width: 100%;
 
   a {

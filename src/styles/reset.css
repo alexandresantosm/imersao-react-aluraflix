@@ -32,6 +32,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+#root {
+	display: flex;
+	flex-direction: column;
+}
+
 *, html {
 	box-sizing: border-box;
 }
